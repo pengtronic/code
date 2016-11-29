@@ -143,6 +143,7 @@ img2_homo = [image2,ones(n,1)];
 % saveas(C2,'with_inliers2.png');
 
 %% DLT
+ramdon_var = 123;
 n = sum(InliersIndx);
 frank_inlier =[394.5105   28.2496  312.2762   23.8705
   456.2044   35.3020  371.6417   31.5326
